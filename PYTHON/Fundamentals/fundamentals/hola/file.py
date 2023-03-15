@@ -50,19 +50,19 @@ for topping in pizza_toppings:#bucle
     if topping == 'Olives':
         break
 
-def print_hello_ten_times():# cadenas/bucles
+def print_hello_ten_times():#funciones
     for num in range(10):
         print('Hello')
 
 print_hello_ten_times()
 
-def print_hello_x_times(x):#cadenas/bucles
+def print_hello_x_times(x )#funciones
     for num in range(x):
         print('Hello')
 
 print_hello_x_times(4)
 
-def print_hello_x_or_ten_times(x = 10):#cadenas/bucles
+def print_hello_x_or_ten_times(x = 10):#funciones
     for num in range(x):
         print('Hello')
 
