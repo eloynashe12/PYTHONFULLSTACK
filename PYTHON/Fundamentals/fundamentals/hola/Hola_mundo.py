@@ -23,9 +23,3 @@ print("Buta que riko los {} y la {}".format(fave_food1,fave_food2))
 #6
 
 
-
-#7
-
-
-
-#8
