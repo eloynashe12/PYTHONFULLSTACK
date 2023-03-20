@@ -1,10 +1,7 @@
-def foo():
-    print(1)
-    x = bar()
-    print(x)
-    return 10
-def bar():
-    print(3)
-    return 5
-y = foo()
-print(y)
+#3;longitud
+def longitud(lista):
+
+    return lista[0] + len(lista)
+
+
+print (longitud([1,2,3,4,5]))
