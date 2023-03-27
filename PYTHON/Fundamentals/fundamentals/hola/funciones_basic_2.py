@@ -34,9 +34,9 @@ print(valores_mayores([3]))
 
 #5 Longitud,ese valor
 def longitud_ese_valor(valor,tamaño):
-    output = []
+    arreglo = []
     for i in range(0,tamaño):
-        output.append(valor)
-    return output
+        arreglo.append(valor)
+    return arreglo
 print(longitud_ese_valor(7,4))
 print(longitud_ese_valor(2,6,))

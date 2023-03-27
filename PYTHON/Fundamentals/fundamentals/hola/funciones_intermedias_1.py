@@ -1,5 +1,5 @@
 #1
-x = [ [5,2,3], [10,8,9] ] 
+x = [ [5,2,3], [10,8,9], [10,8,9] ] 
 estudiantes = [
     {'first_name':  'Michael', 'last_name' : 'Jordan'},
     {'first_name' : 'John', 'last_name' : 'Rosales'}
@@ -12,13 +12,13 @@ z = [ {'x': 10, 'y': 20} ]
 
 
 #2
-x[1][0] = 15
+x[2][2] = 15
 print(x)
 estudiantes[0]['last_name'] = "Bryant"
 print(estudiantes)
 
-directorio_deportes['futbol'][0] = 'Andres'
-print( directorio_deportes['futbol'])
+directorio_deportes['futbol'][2] = 'Andres'
+print( directorio_deportes['fubol'])
 z[0]['y'] = 30
 print(z)
 
