@@ -7,14 +7,15 @@ class Usuario:
 
     def hacer_depósito(self, amount):
         self.balance_cuenta += amount
+        return self
 
     def hacer_retiro(self, amount):
         self.balance_cuenta -= amount
-
+        return self
 
     def imprime(self):
         print(f"{self.name} monto {self.balance_cuenta}")
-      
+        return self
     
 
 xuly = Usuario("Eloy", "miCorreo")
